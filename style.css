@@ -1,0 +1,592 @@
+/* settings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* main container */
+.container{
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+}
+input{
+    padding: 12px;
+}
+/* main root */
+:root{
+    --qizil:red;
+    --qora:#000;
+    --oq:#fff;
+    --t-siniy:#002E73;
+    --molochniy: rgb(244, 246, 241);
+}
+/* birinchi navbar */
+.navbar-top{
+    width: 100%;
+    height: 850px;
+    background-image: url(../photos/Rectangle1.png);
+    background-repeat: no-repeat;
+}
+/* logo */
+.d-net{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 270px;
+    height: 50px;
+    font-family: 'Aclonica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    color: var(--oq);
+}
+/* btn : sign in; */
+.sign{
+    width: 70px;
+    height: 30px;   
+    color: var(--oq);
+    background: var(--qora);
+    border-radius: 15px;
+    border: 2px solid var(--qora);
+    position: relative;
+    left: 1000px;
+    top: -30px;
+}
+/* btn : sign up */
+.sign1{
+    width: 70px;
+    height: 30px;  
+    border-radius: 15px;
+    background: none;
+    border: 2px solid var(--qora);
+    color: var(--qora);
+    position: relative;
+    left: 1050px;
+    top: -30px;
+}
+.text1{
+    position: relative;
+    left: 800px;
+    top: 15px;
+    width: 60px;
+}
+.text2{
+    position: relative;
+    left: 900px;
+    top: -5px;
+    width: 60px;
+
+}
+.central-text{
+    position: relative;
+    height: 140px;
+    top: 280px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.central-2{
+    position: relative;
+    height: 80px;
+    top: 300px;
+    font-size: 25px;
+    line-height: 40px;    
+    text-align: center;
+    color: #F4F4F4;
+    
+}
+.btn-1{
+    position: relative;
+    width: 220px;
+    height: 55px;
+    left: 400px;
+    top: 300px;
+    color: var(--oq);
+    background: linear-gradient(270deg, #28F9AE 0%, #0CABEF 100%);
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+/* hover : btn-1 */
+.btn-1:hover{
+    background: none;
+    color: var(--oq);
+    border: 2px solid var(--oq);
+}
+.btn-2{
+    position: relative;
+    width: 220px;
+    height: 55px;
+    border-radius: 25px;
+    border:2px solid var(--oq);
+    background: none;
+    left: 450px;
+    top: 300px;
+    font-size: 15px;
+    color: var(--oq);
+}
+/* hover : btn-2 */
+.btn-2:hover{
+    background: var(--oq);
+    color: var(--qora);
+    border: 2px solid var(--qora);
+    cursor: pointer;
+}
+/* ikkinchi katta div */
+.navbar-bottom{
+    width: 100%;
+    height: 450px;
+    background: var(--molochniy);
+}
+.lorem-1{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    width: 480px;
+    height: 80px;
+    font-size: 15px;
+    text-align: center;
+}
+#h1{
+    position: relative;
+    right: 380px;
+    top: 20px;
+   text-align: center;
+}
+.btn-learn{
+    position: relative;
+    left: 150px;
+    top: 40px;
+    width: 220px;
+    height: 55px;
+    color: var(--oq);
+    background: linear-gradient(270deg, #28F9AE 0%, #0CABEF 100%);
+    border-radius: 25px;
+    border: none;
+}
+.chochqa-div{
+    position: relative;
+    left: 500px;
+    top: -220px;
+    width: 300px;
+    height: 200px;
+    background: var(--oq);
+    border-radius: 25px;
+}
+.kalit{
+    position: relative;
+    left: 900px;
+    top: -420px;
+    width: 300px;
+    height: 200px;
+    background: var(--oq);
+    border-radius: 25px;
+}
+.hamyon{
+    position: relative;
+    left: 500px;
+    top: -400px;
+    width: 300px;
+    height: 200px;
+    background: var(--oq);
+    border-radius: 25px;
+}
+.secure{
+    position: relative;
+    left: 900px;
+    top: -600px;
+    width: 300px;
+    height: 200px;
+    background: var(--oq);
+    border-radius: 25px;
+}
+.img-kalit{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.kalit-text{
+    font-size: x-large;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+.lorem-2{
+    position: relative;
+    left: 10px;
+    top: 100px;
+}
+.h2-text-1{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    color: var(--t-siniy);
+}
+.h1-text-2{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.p{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.h2-h2{
+    position: relative;
+    top: 60px;
+}
+.h2-h21{
+    position: relative;
+    top: 30px;
+    left: 900px;
+    width: 100px;
+}
+input{
+    width: 400px;
+    height: 30px;
+    border-radius: 25px;
+}
+#input{
+    position: relative;
+    top: 50px;
+}
+#input-1{
+    position: relative;
+    top: 50px;
+    left: 460px;
+}
+.navbar-royhat{
+    position: relative;
+    top: 20px;
+    border-radius: 3px 3px 0px 0px;
+}
+/* jadval divi */
+.bottom{
+    position: relative;
+    top: 90px;
+}
+#chat{
+    position: relative;
+    top: 42px;
+}
+#method{
+    position: relative;
+    top: 45px;
+}
+#offer{
+    position: relative;
+    top: 55 px;
+}
+.bottom-top{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.bottom-top img {
+    position: relative;
+    top: 5px;
+    left: 60px;
+} 
+.bottom-top p {
+    margin-left: 110px;
+    margin-top: -30px;   
+    color: var(--kulrang);
+}
+.bottom-top h6 {
+    position: relative;
+    top: 12px;
+    margin-left: 240px;
+    color: var(--qora);
+    margin-top: -40px;
+    color: var(--kulrang);
+}
+.bottom-top h5 {
+    position: relative;
+    top: 25px;
+    margin-left: 340px;
+    margin-top: -20px;
+    color: var(--kulrang);
+}
+.bottom-top h4 {
+    position: relative;
+    top: 35px;
+    margin-left: 470px;
+    margin-top: -25px;
+    color: var(--kulrang);
+}
+.bottom-top h3 {
+    position: relative;
+    top: 30px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: -25px;
+    text-align: center;
+    color: var(--green);
+}
+.bottom-top h2 {
+    position: relative;
+    top: 38px;
+    color: var(--qora);
+    font-size: 15px;
+    margin-left: 710px;
+    margin-top: -25px;
+    color: var(--kulrang);
+}
+.bottom-top h1 {
+    position: relative;
+    top: 47px;
+    font-size: 15px;
+    margin-left: 830px;
+    margin-top: -25px;
+    color: var(--kulrang);
+}
+
+.bottom-top p {
+    margin-left: 110px;
+    margin-top: -25px;   
+    color: var(--kulrang);
+}
+.bottom-top h6 {
+    margin-left: 240px;
+    color: var(--qora);
+    margin-top: -25px;
+    color: var(--kulrang);
+}
+.bottom-top h5 {
+    margin-left: 340px;
+    margin-top: -25px;
+    color: var(--kulrang);
+}
+.bottom-top h4 {
+    margin-left: 470px;
+    margin-top: -25px;
+    color: var(--kulrang);
+}
+.bottom-top h3 {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: -25px;
+    text-align: center;
+    color: var(--green);
+}
+.bottom-top h2 {
+    color: var(--qora);
+    font-size: 15px;
+    margin-left: 710px;
+    margin-top: -25px;
+    color: var(--kulrang);
+}
+.bottom-top h1 {
+    font-size: 15px;
+    margin-left: 830px;
+    margin-top: -25px;
+    color: var(--kulrang);
+} 
+/* scroll div */
+.scroll-div{
+    width: 20px;
+}
+.net-o{
+    width: 700px;
+}
+/* maps img */
+.struct{
+    background-image: url(../photos/Rectangle\ 24.png);
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 900px;
+}
+.maps{
+    position: relative;
+    top: -600px;
+    left: 150px;
+    width: 60%;
+    height: 600px;
+    background-image: url(../photos/map\ 1.png);
+}
+.soz{
+    background: var(--oq);
+    width: 20%;
+    position: relative;
+    top: -850px;
+    left: 600px;
+    text-align: center;
+}
+#our{
+    text-align: center;
+    color: var(--t-siniy);
+    position: relative;
+    top: -550px;
+}
+#we{
+    text-align: center;
+    position: relative;
+    top: -540px;
+}
+#lorem-2{
+    text-align: center;
+    position: relative;
+    top: -530px;
+}
+.div-1{
+    background: var(--molochniy);
+    width: 25%;
+    height: 300px;
+    position: relative;
+    top: -450px;
+    border-radius: 25px;
+}
+.div-2{
+    background: var(--molochniy);
+    width: 25%;
+    height: 300px;
+    position: relative;
+    left: 450px;
+    top: -750px;
+    border-radius: 25px;
+}
+.div-3{
+    background: var(--molochniy);
+    width: 25%;
+    height: 300px;
+    position: relative;
+    left: 900px;
+    top: -1050px;
+    border-radius: 25px;
+}
+.img-1{
+    position: absolute;
+    top: 20px;
+    left: 110px;
+}
+.h3-1{
+    position: relative;
+    top: 120px;
+    text-align: center;
+}
+.lorm{
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+.k-div{
+    display: flex;
+    justify-content: center;
+}
+.div-4{
+    background: var(--molochniy);
+    width: 41%;
+    text-align: center;
+    position: relative;
+    right: 10px;
+    top: -900px;
+}
+.div-5{
+    background: var(--molochniy);
+    width: 41%;
+    text-align: center;
+    position: relative;
+    left: 10px;
+    top: -900px;
+}
+.divcha{
+    width: 35px;
+    background: var(--molochniy);
+    transform: rotate(490deg);
+    position: relative;
+    top: -867px;
+    left: -460px;
+}
+.profil{
+    display: flex;
+    position: relative;
+    top: -850px;
+    left: 650px;
+    width: 550px;
+}
+.profil-1{
+    display: flex;
+    position: relative;
+    top: -900px;
+    width: 550px;
+}
+.a{
+    position: absolute;
+    left: 150px;
+}
+/* eng pastki div */
+.bottom-1{
+    position: relative;
+    top: -800px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--t-siniy);
+}
+.songi{
+    position: relative;
+    top: -800px;
+    display: flex;
+    justify-content: space-between;
+    background: #0a1a33;
+}
+/* loading */
+/* @import url('https://fonts.googleapis.com/
+    css?family=Popins:400,500,600,700&display=swap'); */
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--qora);
+}
+.h1-h1-1{
+    position: relative;
+    left: 300px;
+    font-size: 8em;
+    color: #222;
+    text-transform: uppercase;
+    border-bottom: 16px solid #222;
+    letter-spacing: 0.05em;
+    line-height: 1.2em;
+}
+.h1-h1-1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #03a9f4;
+    overflow: hidden;
+    border-bottom: 16px solid #03a9f4;
+    animation: animate 10s linear infinite;
+}
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+
+}
+.btn-btn{
+    position: relative;
+    top: 300px;
+    right: 350px;
+    width: 600px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(270deg, #28F9AE 0%, #0CABEF 100%);
+    color: var(--oq);
+    font-size: xx-large;
+    text-decoration-line: none;
+}
